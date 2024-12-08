@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_background"
+    android:padding="16dp"
+    android:clipToOutline="true">
+
+    <!-- Top Indicator Line -->
+    <View
+        android:layout_width="36dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/top_indicator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Get ready to test your knowledge!"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Start Quiz Button -->
+    <Button
+        android:id="@+id/startQuizButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:text="Start the Quiz"
+        android:textColor="@android:color/white" />
+
+    <!-- Cancel Button -->
+    <TextView
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Cancel"
+        android:textColor="@color/design_default_color_primary"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+
+
